@@ -29,9 +29,8 @@ export default function Home() {
 
           <ul className="nav nav-pills">
             <li className="nav-item"><a href="#" className="nav-link active" aria-current="page">Home</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">My jobs</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">My apps</a></li>
-            <li className="nav-item"><a href="#" className="nav-link">About me</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">Services</a></li>
+            <li className="nav-item"><a href="#" className="nav-link">Contact me</a></li>
           </ul>
         </header>
       </div>
