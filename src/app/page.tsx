@@ -1,5 +1,4 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.css';
 import Head from 'next/head';
@@ -49,13 +48,13 @@ export default function Home() {
           height="275"
         />
         <h1 className="display-5 fw-bold">
-          I'm <span className="dark-orange">lleïr garcia</span>
+          I&apos;m <span className="dark-orange">lleïr garcia</span>
         </h1>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
             Here you are gonna find: <strong><b>who I am</b></strong>, 
             <strong><b>my cultural mindset</b></strong>, <strong><b>how I can help you</b></strong>, 
-            and some of the <em>applications I've created</em> in my free time.
+            and some of the <em>applications I&apos;ve created</em> in my free time.
           </p>
         </div>
       </div>
@@ -198,7 +197,7 @@ export default function Home() {
             </div>
             <h3 className="fs-2 dark-orange">Braintor</h3>
             <p>
-              <strong>Braintor</strong> It's an application focused on content creation. It only requires a text (usually a large one), 
+              <strong>Braintor</strong> It&apos;s an application focused on content creation. It only requires a text (usually a large one), 
               and Braintor assists you in your creative process by providing possible LinkedIn posts, Shorts for Reels, TikTok, or YouTube, 
               or simply giving you a detailed summary of the text.
               <em>* It is useful for YouTube video transcriptions to generate and create content from them.</em>
@@ -251,7 +250,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-dark text-white text-center py-3 mt-5">
-        <p>&copy; 2024 lleirgarcia.com. Todos los derechos reservados.</p>
+        <p>&copy; 2024 lleirgarcia.com. All rights reserved.</p>
       </footer>
     </>
   );
