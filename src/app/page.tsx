@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
+    < >
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
@@ -250,7 +250,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-dark text-white text-center py-3 mt-5">
-        <p>&copy; 2024 lleirgarcia.com. All rights reserved.</p>
+        <p>&copy; 2024 lleirgarcia.es. All rights reserved.</p>
       </footer>
     </>
   );
